@@ -61,8 +61,8 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# AI 站点索引（llms.txt 规范）：https://anhe-player.loc.cc/llms.txt
-# 完整纯文本全文：https://anhe-player.loc.cc/llms-full.txt
-# 音源可用性 JSON：https://anhe-player.loc.cc/sources-status.json
+# AI 站点索引（llms.txt 规范）：https://cf-anheplayer-a04.pages.dev/llms.txt
+# 完整纯文本全文：https://cf-anheplayer-a04.pages.dev/llms-full.txt
+# 音源可用性 JSON：https://cf-anheplayer-a04.pages.dev/sources-status.json
 
-Sitemap: https://anhe-player.loc.cc/sitemap-index.xml
+Sitemap: https://cf-anheplayer-a04.pages.dev/sitemap-index.xml

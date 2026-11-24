@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-11-24T02:54:25.534Z",
-  "site": "https://anhe-player.loc.cc",
+  "site": "https://cf-anheplayer-a04.pages.dev",
   "totalChecked": 41,
   "totalPassing": 24,
   "included": 22,
@@ -10,7 +10,7 @@
       "id": "remote-xinghai",
       "name": "星海音乐源",
       "version": "v3.2.18",
-      "url": "https://anhe-player.loc.cc/sources/remote/xinghai.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/remote/xinghai.js",
       "keptId": "315819a926",
       "reason": "同名同作者，保留本地 v3.2.20：与在线 v3.2.18 本轮平台结果相同（5/6），版本更新且为仓库内快照。"
     },
@@ -18,7 +18,7 @@
       "id": "b63bd95c38",
       "name": "全豆要[聚合音源]",
       "version": "v4.1",
-      "url": "https://anhe-player.loc.cc/sources/b63bd95c38.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/b63bd95c38.js",
       "keptId": "remote-qdy",
       "reason": "同名同作者，保留在线 9.3 93特供版：与本地 v4.1 本轮平台结果相同（2/5），后端域名为 v4.1 的超集。"
     }
@@ -44,8 +44,8 @@
       ],
       "platformsFailed": [],
       "path": "/sources/89b501e4bd.js",
-      "url": "https://anhe-player.loc.cc/sources/89b501e4bd.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v4.0.2.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/89b501e4bd.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v4.0.2.js"
     },
     {
       "id": "048bce00df",
@@ -65,8 +65,8 @@
       ],
       "platformsFailed": [],
       "path": "/sources/048bce00df.js",
-      "url": "https://anhe-player.loc.cc/sources/048bce00df.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E6%9D%B0%E7%BF%94%E8%81%9A%E5%90%88%E9%9F%B3%E6%BA%90V2.3.0%EF%BC%88QQ%E7%94%A8%E4%B8%8D%E4%BA%86%EF%BC%89.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/048bce00df.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E6%9D%B0%E7%BF%94%E8%81%9A%E5%90%88%E9%9F%B3%E6%BA%90V2.3.0%EF%BC%88QQ%E7%94%A8%E4%B8%8D%E4%BA%86%EF%BC%89.js"
     },
     {
       "id": "f600412fe0",
@@ -86,8 +86,8 @@
       ],
       "platformsFailed": [],
       "path": "/sources/f600412fe0.js",
-      "url": "https://anhe-player.loc.cc/sources/f600412fe0.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E6%A0%87%E5%87%86/lx-source.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/f600412fe0.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E6%A0%87%E5%87%86/lx-source.js"
     },
     {
       "id": "54480a6344",
@@ -109,8 +109,8 @@
         "kw"
       ],
       "path": "/sources/54480a6344.js",
-      "url": "https://anhe-player.loc.cc/sources/54480a6344.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%A2%A8%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90v2.3.8.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/54480a6344.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%A2%A8%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90v2.3.8.js"
     },
     {
       "id": "315819a926",
@@ -132,8 +132,8 @@
         "tx"
       ],
       "path": "/sources/315819a926.js",
-      "url": "https://anhe-player.loc.cc/sources/315819a926.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/xinghai-music-sourcev2.3.20.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/315819a926.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/xinghai-music-sourcev2.3.20.js"
     },
     {
       "id": "2e8e5efc47",
@@ -154,8 +154,8 @@
         "kw"
       ],
       "path": "/sources/2e8e5efc47.js",
-      "url": "https://anhe-player.loc.cc/sources/2e8e5efc47.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%9B%9E%E9%81%BF%E8%81%9A%E5%90%88V0.0.1.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/2e8e5efc47.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%9B%9E%E9%81%BF%E8%81%9A%E5%90%88V0.0.1.js"
     },
     {
       "id": "db1633ebdc",
@@ -176,8 +176,8 @@
         "tx"
       ],
       "path": "/sources/db1633ebdc.js",
-      "url": "https://anhe-player.loc.cc/sources/db1633ebdc.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88)%20v3.0.0.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/db1633ebdc.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88)%20v3.0.0.js"
     },
     {
       "id": "648d5f515a",
@@ -198,8 +198,8 @@
         "kw"
       ],
       "path": "/sources/648d5f515a.js",
-      "url": "https://anhe-player.loc.cc/sources/648d5f515a.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/fish-music1.9.0.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/648d5f515a.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/fish-music1.9.0.js"
     },
     {
       "id": "5b1c5dcdb2",
@@ -219,8 +219,8 @@
         "tx"
       ],
       "path": "/sources/5b1c5dcdb2.js",
-      "url": "https://anhe-player.loc.cc/sources/5b1c5dcdb2.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E5%B1%BF%E6%BA%AA%E7%BB%88%E7%AB%A0%E4%BF%AE%E5%A4%8DV1.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/5b1c5dcdb2.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E5%B1%BF%E6%BA%AA%E7%BB%88%E7%AB%A0%E4%BF%AE%E5%A4%8DV1.js"
     },
     {
       "id": "650f22588d",
@@ -241,8 +241,8 @@
         "tx"
       ],
       "path": "/sources/650f22588d.js",
-      "url": "https://anhe-player.loc.cc/sources/650f22588d.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/HelloWorld%E9%9F%B3%E6%BA%90(%E4%B8%AD%E7%A7%8B%E5%BF%AB%E4%B9%90).js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/650f22588d.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/HelloWorld%E9%9F%B3%E6%BA%90(%E4%B8%AD%E7%A7%8B%E5%BF%AB%E4%B9%90).js"
     },
     {
       "id": "6f5ceaed60",
@@ -262,8 +262,8 @@
         "kg"
       ],
       "path": "/sources/6f5ceaed60.js",
-      "url": "https://anhe-player.loc.cc/sources/6f5ceaed60.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E8%BD%BB%E9%87%8F%E9%9F%B3%E6%BA%90_%E5%A4%9A%E6%BA%90%E5%B9%B6%E8%A1%8C%EF%BC%88%E9%85%B7%E6%88%91%E5%93%87%E7%BD%91%E6%98%93%E4%BA%91%E6%97%A0%E6%8D%9F%2B%E5%85%B6%E4%BB%96mp3%EF%BC%89.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/6f5ceaed60.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E8%BD%BB%E9%87%8F%E9%9F%B3%E6%BA%90_%E5%A4%9A%E6%BA%90%E5%B9%B6%E8%A1%8C%EF%BC%88%E9%85%B7%E6%88%91%E5%93%87%E7%BD%91%E6%98%93%E4%BA%91%E6%97%A0%E6%8D%9F%2B%E5%85%B6%E4%BB%96mp3%EF%BC%89.js"
     },
     {
       "id": "2305d53240",
@@ -283,8 +283,8 @@
         "mg"
       ],
       "path": "/sources/2305d53240.js",
-      "url": "https://anhe-player.loc.cc/sources/2305d53240.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/aya%E9%9F%B3%E6%BA%90v1.0.2%EF%BC%88QQ%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%EF%BC%89.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/2305d53240.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/aya%E9%9F%B3%E6%BA%90v1.0.2%EF%BC%88QQ%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%EF%BC%89.js"
     },
     {
       "id": "2f0663b30a",
@@ -305,8 +305,8 @@
         "mg"
       ],
       "path": "/sources/2f0663b30a.js",
-      "url": "https://anhe-player.loc.cc/sources/2f0663b30a.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E8%A5%BF%E7%93%9C%E8%81%9A%E5%90%88.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/2f0663b30a.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E8%A5%BF%E7%93%9C%E8%81%9A%E5%90%88.js"
     },
     {
       "id": "e4baddc775",
@@ -327,8 +327,8 @@
         "mg"
       ],
       "path": "/sources/e4baddc775.js",
-      "url": "https://anhe-player.loc.cc/sources/e4baddc775.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/lx-%E7%8E%89%E5%AE%81%E7%86%991.2.5.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/e4baddc775.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/lx-%E7%8E%89%E5%AE%81%E7%86%991.2.5.js"
     },
     {
       "id": "remote-qdy",
@@ -349,7 +349,7 @@
         "mg"
       ],
       "path": "/sources/remote/qdy.js",
-      "url": "https://anhe-player.loc.cc/sources/remote/qdy.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/remote/qdy.js",
       "fallbackUrl": "https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js"
     },
     {
@@ -371,8 +371,8 @@
         "mg"
       ],
       "path": "/sources/d8bae94520.js",
-      "url": "https://anhe-player.loc.cc/sources/d8bae94520.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v0.0.14.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/d8bae94520.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v0.0.14.js"
     },
     {
       "id": "b769c1984b",
@@ -390,8 +390,8 @@
         "kw"
       ],
       "path": "/sources/b769c1984b.js",
-      "url": "https://anhe-player.loc.cc/sources/b769c1984b.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E7%BB%9F%E4%B8%80%E9%9F%B3%E4%B9%90%E6%BA%90.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/b769c1984b.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E7%BB%9F%E4%B8%80%E9%9F%B3%E4%B9%90%E6%BA%90.js"
     },
     {
       "id": "e4927e850e",
@@ -410,8 +410,8 @@
         "kw"
       ],
       "path": "/sources/e4927e850e.js",
-      "url": "https://anhe-player.loc.cc/sources/e4927e850e.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E6%94%B6%E9%9B%86%E3%81%AE%E8%81%9A%E5%90%88%E6%8E%A5%E5%8F%A3.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/e4927e850e.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E6%94%B6%E9%9B%86%E3%81%AE%E8%81%9A%E5%90%88%E6%8E%A5%E5%8F%A3.js"
     },
     {
       "id": "09382b4b05",
@@ -430,8 +430,8 @@
         "kw"
       ],
       "path": "/sources/09382b4b05.js",
-      "url": "https://anhe-player.loc.cc/sources/09382b4b05.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E7%A8%B3%E5%AE%9A%E7%89%88%E9%9F%B3%E6%BA%90%20v1.0.3.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/09382b4b05.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E7%A8%B3%E5%AE%9A%E7%89%88%E9%9F%B3%E6%BA%90%20v1.0.3.js"
     },
     {
       "id": "ad23fdca50",
@@ -451,8 +451,8 @@
         "kw"
       ],
       "path": "/sources/ad23fdca50.js",
-      "url": "https://anhe-player.loc.cc/sources/ad23fdca50.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%AE%89%E5%A6%AE%E7%8B%AC%E5%AE%B6%E9%9F%B3%E6%BA%90%20v5.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/ad23fdca50.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%AE%89%E5%A6%AE%E7%8B%AC%E5%AE%B6%E9%9F%B3%E6%BA%90%20v5.js"
     },
     {
       "id": "2ddb3474ec",
@@ -474,8 +474,8 @@
         "qs"
       ],
       "path": "/sources/2ddb3474ec.js",
-      "url": "https://anhe-player.loc.cc/sources/2ddb3474ec.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E9%9D%9E%E5%B8%B8%E5%88%80%20v5.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/2ddb3474ec.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E9%9D%9E%E5%B8%B8%E5%88%80%20v5.js"
     },
     {
       "id": "22336a5ad6",
@@ -497,8 +497,8 @@
         "kg"
       ],
       "path": "/sources/22336a5ad6.js",
-      "url": "https://anhe-player.loc.cc/sources/22336a5ad6.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/raclen/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/HYWmusic_%E5%85%AC%E7%9B%8A%E7%89%88V1.2.0.js"
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/22336a5ad6.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/HYWmusic_%E5%85%AC%E7%9B%8A%E7%89%88V1.2.0.js"
     }
   ]
 }

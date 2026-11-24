@@ -18,8 +18,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-export const MERGED_SITE_BASE = "https://anhe-player.loc.cc";
-export const REPO_RAW_BASE = "https://raw.githubusercontent.com/raclen/cf-anheplayer/main";
+export const MERGED_SITE_BASE = "https://cf-anheplayer-a04.pages.dev";
+export const REPO_RAW_BASE = "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main";
 
 /**
  * 同名组内显式保留项。key 为去重后的 @name，value 为保留条目的 id。

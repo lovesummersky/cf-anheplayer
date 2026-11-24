@@ -36,9 +36,9 @@ const prepareBuildDataIntegration = {
   },
 };
 
-// AnhePlayer 独立宣传页，部署到 Cloudflare Pages（anhe-player.loc.cc）。
+// AnhePlayer 独立宣传页，部署到 Cloudflare Pages（cf-anheplayer-a04.pages.dev）。
 export default defineConfig({
-  site: "https://anhe-player.loc.cc",
+  site: "https://cf-anheplayer-a04.pages.dev",
   output: "static",
   trailingSlash: "always",
   devToolbar: {
@@ -49,8 +49,8 @@ export default defineConfig({
     sitemap({
       // llms.txt 是 AI 检索入口，不在页面路由里，需显式补进 sitemap 便于爬虫发现
       customPages: [
-        "https://anhe-player.loc.cc/llms.txt",
-        "https://anhe-player.loc.cc/llms-full.txt",
+        "https://cf-anheplayer-a04.pages.dev/llms.txt",
+        "https://cf-anheplayer-a04.pages.dev/llms-full.txt",
       ],
       // 页面内容随时会因新版本发布而更新，最后修改时间优先取真实数据时间
       lastmod: new Date(),

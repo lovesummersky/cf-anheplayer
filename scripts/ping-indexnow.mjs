@@ -2,7 +2,7 @@
 // 无需账号，只需在站点根部署 <key>.txt 证明所有权。用法：
 //   node scripts/ping-indexnow.mjs            # 推送默认四个页面
 //   node scripts/ping-indexnow.mjs /mobile/   # 只推送指定路径
-const SITE = "https://anhe-player.loc.cc";
+const SITE = "https://cf-anheplayer-a04.pages.dev";
 const KEY = "c21306f68993193c22e4182bbc1d08a5";
 const KEY_LOCATION = `${SITE}/${KEY}.txt`;
 const ENDPOINT = "https://api.indexnow.org/indexnow";

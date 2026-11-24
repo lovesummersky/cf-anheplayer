@@ -11,7 +11,7 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..', '..')
-const SITE = 'https://anhe-player.loc.cc'
+const SITE = 'https://cf-anheplayer-a04.pages.dev'
 
 const remoteList = [
   {

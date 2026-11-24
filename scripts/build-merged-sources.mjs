@@ -3,7 +3,7 @@
  * 数据来源：src/data/sources-status.json（最新一轮检测结果）+
  * sources/remote.json（在线音源的镜像 / 原始地址回退）。
  *
- * 用法：node scripts/build-merged-sources.mjs [--site https://anhe-player.loc.cc]
+ * 用法：node scripts/build-merged-sources.mjs [--site https://cf-anheplayer-a04.pages.dev]
  * 构建时由 astro.config.mjs 的构建准备集成自动调用，无需手动执行。
  */
 import { writeMergedSources } from "./lib/merged-sources.mjs";

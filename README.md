@@ -2,7 +2,7 @@
 
 AnhePlayer 全系列官方宣传与下载门户，从 `zone` 主站拆分出来，独立部署在 Cloudflare Pages。
 
-- 线上地址：`https://anhe-player.loc.cc`
+- 线上地址：`https://cf-anheplayer-a04.pages.dev`
 - 主站：`https://raclen.top`
 
 门户涵盖安禾播放器系列三大产品与音源可用性监测中心：
