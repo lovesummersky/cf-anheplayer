@@ -1,0 +1,71 @@
+name: 聚合音源每日构建
+
+on:
+  schedule:
+    # 每天 02:41 UTC 构建一次；避开整点，减少 GitHub Actions 排队高峰
+    - cron: "41 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lx-aggregate-build
+  cancel-in-progress: false
+
+jobs:
+  build-and-test:
+    name: 构建并实测聚合音源
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          # 构建与实测阶段不保留凭据：聚合文件在沙箱中执行，避免内嵌
+          # 脚本拿到可推送的 token；与检测工作流同一安全形状
+          persist-credentials: false
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # 构建器生成 public/aggregated-sources.js，测试门实测全部平台×音质；
+      # 任一必填单元格失败即退出非零，本任务失败，publish 任务不会运行。
+      - name: 构建并实测聚合音源
+        run: node scripts/test-aggregated-source.mjs
+
+      - name: 上传聚合音源
+        uses: actions/upload-artifact@v4
+        with:
+          name: aggregated-source
+          path: public/aggregated-sources.js
+          retention-days: 1
+
+  publish:
+    name: 提交聚合音源
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 下载聚合音源
+        uses: actions/download-artifact@v4
+        with:
+          name: aggregated-source
+
+      - name: 提交聚合音源
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/aggregated-sources.js
+          if git diff --cached --quiet; then
+            echo "聚合音源无变化，跳过提交"
+          else
+            git commit -m "chore: 更新聚合音源单文件"
+            git push
+          fi
