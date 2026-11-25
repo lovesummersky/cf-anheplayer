@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T03:33:21.031Z",
+  "generatedAt": "2026-11-25T14:21:56.631Z",
   "site": "https://cf-anheplayer-a04.pages.dev",
   "totalChecked": 46,
-  "totalPassing": 28,
+  "totalPassing": 29,
   "included": 23,
   "removedDuplicates": [
     {
@@ -39,6 +39,14 @@
       "reason": "同名同作者，保留在线 9.3 93特供版：与本地 v4.1 本轮平台结果相同（2/5），后端域名为 v4.1 的超集。"
     },
     {
+      "id": "d29466bd0e",
+      "name": "HYWmusic_公益版",
+      "version": "v1.2.0",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/d29466bd0e.js",
+      "keptId": "22336a5ad6",
+      "reason": "同名重复，只保留通过数 / 通过率更高的一项。"
+    },
+    {
       "id": "071fea77d7",
       "name": "星澜聚合音源 (StellarWave)",
       "version": "v4.0.2",
@@ -49,6 +57,28 @@
   ],
   "usage": "本文件不是一个可直接导入洛雪 / AnhePlayer 的 .js 音源脚本。把多个脚本拼成一个 .js 会因重复声明与重复注册而报错或互相覆盖。正确用法：支持订阅清单的客户端填入本 JSON 的地址；标准客户端按 sources 里 url 的顺序逐个在线导入，并开启播放失败自动换源，播放器会在多个已导入音源之间兜底，这才是运行时的“合并”。",
   "sources": [
+    {
+      "id": "89b501e4bd",
+      "name": "星澜聚合音源 (StellarWave)",
+      "title": "stellarwave-v4.0.2",
+      "version": "v4.0.2",
+      "author": "星澜团队",
+      "category": "一般",
+      "status": "available",
+      "passed": "6/6",
+      "platformsPassed": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg",
+        "qs"
+      ],
+      "platformsFailed": [],
+      "path": "/sources/89b501e4bd.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/89b501e4bd.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v4.0.2.js"
+    },
     {
       "id": "048bce00df",
       "name": "杰翔聚合音源",
@@ -113,29 +143,6 @@
       "path": "/sources/54480a6344.js",
       "url": "https://cf-anheplayer-a04.pages.dev/sources/54480a6344.js",
       "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%A2%A8%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90v2.3.8.js"
-    },
-    {
-      "id": "89b501e4bd",
-      "name": "星澜聚合音源 (StellarWave)",
-      "title": "stellarwave-v4.0.2",
-      "version": "v4.0.2",
-      "author": "星澜团队",
-      "category": "一般",
-      "status": "partial",
-      "passed": "5/6",
-      "platformsPassed": [
-        "wy",
-        "kw",
-        "kg",
-        "mg",
-        "qs"
-      ],
-      "platformsFailed": [
-        "tx"
-      ],
-      "path": "/sources/89b501e4bd.js",
-      "url": "https://cf-anheplayer-a04.pages.dev/sources/89b501e4bd.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v4.0.2.js"
     },
     {
       "id": "315819a926",
@@ -205,6 +212,28 @@
       "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88)%20v3.0.0.js"
     },
     {
+      "id": "b1a8262629",
+      "name": "Hei Music聚合源",
+      "title": "d0947a4fe4",
+      "version": "v2.2.2-261031-fix",
+      "author": "Compile by CatXiaolan",
+      "category": "标准",
+      "status": "partial",
+      "passed": "4/5",
+      "platformsPassed": [
+        "kw",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "platformsFailed": [
+        "kg"
+      ],
+      "path": "/sources/b1a8262629.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/b1a8262629.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E6%A0%87%E5%87%86/d0947a4fe4.js"
+    },
+    {
       "id": "648d5f515a",
       "name": "fish_music",
       "title": "fish-music1.9.0",
@@ -246,28 +275,6 @@
       "path": "/sources/5b1c5dcdb2.js",
       "url": "https://cf-anheplayer-a04.pages.dev/sources/5b1c5dcdb2.js",
       "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E5%B1%BF%E6%BA%AA%E7%BB%88%E7%AB%A0%E4%BF%AE%E5%A4%8DV1.js"
-    },
-    {
-      "id": "b1a8262629",
-      "name": "Hei Music聚合源",
-      "title": "d0947a4fe4",
-      "version": "v2.2.2-261031-fix",
-      "author": "Compile by CatXiaolan",
-      "category": "标准",
-      "status": "partial",
-      "passed": "3/5",
-      "platformsPassed": [
-        "tx",
-        "wy",
-        "mg"
-      ],
-      "platformsFailed": [
-        "kw",
-        "kg"
-      ],
-      "path": "/sources/b1a8262629.js",
-      "url": "https://cf-anheplayer-a04.pages.dev/sources/b1a8262629.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E6%A0%87%E5%87%86/d0947a4fe4.js"
     },
     {
       "id": "650f22588d",
@@ -378,6 +385,28 @@
       "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/lx-%E7%8E%89%E5%AE%81%E7%86%991.2.5.js"
     },
     {
+      "id": "remote-qdy",
+      "name": "全豆要[聚合音源]",
+      "title": "QDY",
+      "version": "9.3 93特供版 DeepSeek优化",
+      "author": "全豆要 and Gemini优化 Toskysun去混淆 TZB679兼容性处理",
+      "category": "在线",
+      "status": "partial",
+      "passed": "2/5",
+      "platformsPassed": [
+        "wy",
+        "kw"
+      ],
+      "platformsFailed": [
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "path": "/sources/remote/qdy.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/remote/qdy.js",
+      "fallbackUrl": "https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js"
+    },
+    {
       "id": "d8bae94520",
       "name": "新星澜音乐源",
       "title": "stellarwave-v0.0.14",
@@ -398,6 +427,29 @@
       "path": "/sources/d8bae94520.js",
       "url": "https://cf-anheplayer-a04.pages.dev/sources/d8bae94520.js",
       "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/stellarwave-v0.0.14.js"
+    },
+    {
+      "id": "22336a5ad6",
+      "name": "HYWmusic_公益版",
+      "title": "HYWmusic_公益版V1.2.0",
+      "version": "v1.2.0",
+      "author": "Ryn",
+      "category": "一般",
+      "status": "partial",
+      "passed": "2/6",
+      "platformsPassed": [
+        "kw",
+        "wy"
+      ],
+      "platformsFailed": [
+        "tx",
+        "mg",
+        "qs",
+        "kg"
+      ],
+      "path": "/sources/22336a5ad6.js",
+      "url": "https://cf-anheplayer-a04.pages.dev/sources/22336a5ad6.js",
+      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/HYWmusic_%E5%85%AC%E7%9B%8A%E7%89%88V1.2.0.js"
     },
     {
       "id": "b769c1984b",
@@ -478,49 +530,6 @@
       "path": "/sources/ad23fdca50.js",
       "url": "https://cf-anheplayer-a04.pages.dev/sources/ad23fdca50.js",
       "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%BC%98%E8%B4%A8/%E5%AE%89%E5%A6%AE%E7%8B%AC%E5%AE%B6%E9%9F%B3%E6%BA%90%20v5.js"
-    },
-    {
-      "id": "a4ad0fc396",
-      "name": "溯音音源",
-      "title": "溯音音源_v1",
-      "version": "v1",
-      "author": "竹佀",
-      "category": "一般",
-      "status": "partial",
-      "passed": "1/4",
-      "platformsPassed": [
-        "kw"
-      ],
-      "platformsFailed": [
-        "tx",
-        "wy",
-        "mg"
-      ],
-      "path": "/sources/a4ad0fc396.js",
-      "url": "https://cf-anheplayer-a04.pages.dev/sources/a4ad0fc396.js",
-      "fallbackUrl": "https://raw.githubusercontent.com/lovesummersky/cf-anheplayer/main/sources/%E4%B8%80%E8%88%AC/%E6%BA%AF%E9%9F%B3%E9%9F%B3%E6%BA%90_v1.js"
-    },
-    {
-      "id": "remote-qdy",
-      "name": "全豆要[聚合音源]",
-      "title": "QDY",
-      "version": "9.3 93特供版 DeepSeek优化",
-      "author": "全豆要 and Gemini优化 Toskysun去混淆 TZB679兼容性处理",
-      "category": "在线",
-      "status": "partial",
-      "passed": "1/5",
-      "platformsPassed": [
-        "kw"
-      ],
-      "platformsFailed": [
-        "wy",
-        "tx",
-        "kg",
-        "mg"
-      ],
-      "path": "/sources/remote/qdy.js",
-      "url": "https://cf-anheplayer-a04.pages.dev/sources/remote/qdy.js",
-      "fallbackUrl": "https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js"
     },
     {
       "id": "2ddb3474ec",

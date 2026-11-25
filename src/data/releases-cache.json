@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-25T03:37:21.441Z",
+  "updatedAt": "2026-11-25T14:25:58.285Z",
   "pc": {
     "repo": "raclen/AnhePlayer",
     "tag": "v1.0.53",
     "version": "1.0.53",
     "publishedAt": "2026-11-22T04:47:10Z",
-    "totalDownloads": 2474,
+    "totalDownloads": 2502,
     "assets": [
       {
         "name": "AnhePlayer_1.0.53_x64-setup.exe",
         "size": 5929239,
         "downloadUrl": "https://github.com/raclen/AnhePlayer/releases/download/v1.0.53/AnhePlayer_1.0.53_x64-setup.exe",
-        "downloadCount": 214
+        "downloadCount": 240
       },
       {
         "name": "AnhePlayer_1.0.53_x64-setup.exe.sig",
@@ -23,7 +23,7 @@
         "name": "AnhePlayer_1.0.53_x64_en-US.msi",
         "size": 8433664,
         "downloadUrl": "https://github.com/raclen/AnhePlayer/releases/download/v1.0.53/AnhePlayer_1.0.53_x64_en-US.msi",
-        "downloadCount": 33
+        "downloadCount": 34
       },
       {
         "name": "AnhePlayer_1.0.53_x64_en-US.msi.sig",
@@ -35,7 +35,7 @@
         "name": "latest.json",
         "size": 2326,
         "downloadUrl": "https://github.com/raclen/AnhePlayer/releases/download/v1.0.53/latest.json",
-        "downloadCount": 254
+        "downloadCount": 309
       }
     ]
   },
@@ -44,19 +44,19 @@
     "tag": "v2.0.40",
     "version": "2.0.40",
     "publishedAt": "2026-11-23T06:00:24Z",
-    "totalDownloads": 6097,
+    "totalDownloads": 6172,
     "assets": [
       {
         "name": "AnhePlayer-2.0.40-core-arm64-v8a-release-240.apk",
         "size": 7227410,
         "downloadUrl": "https://github.com/raclen/AnhePlayer-Mobile/releases/download/v2.0.40/AnhePlayer-2.0.40-core-arm64-v8a-release-240.apk",
-        "downloadCount": 389
+        "downloadCount": 444
       },
       {
         "name": "AnhePlayer-2.0.40-core-armeabi-v7a-release-240.apk",
         "size": 6441774,
         "downloadUrl": "https://github.com/raclen/AnhePlayer-Mobile/releases/download/v2.0.40/AnhePlayer-2.0.40-core-armeabi-v7a-release-240.apk",
-        "downloadCount": 41
+        "downloadCount": 43
       }
     ]
   },
@@ -65,13 +65,13 @@
     "tag": "v1.4.0",
     "version": "1.4.0",
     "publishedAt": "2026-10-21T07:26:23Z",
-    "totalDownloads": 805,
+    "totalDownloads": 814,
     "assets": [
       {
         "name": "anhe-downloader.exe",
         "size": 9434624,
         "downloadUrl": "https://github.com/raclen/anhe-downloader/releases/download/v1.4.0/anhe-downloader.exe",
-        "downloadCount": 800
+        "downloadCount": 809
       }
     ]
   }
